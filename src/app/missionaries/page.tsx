@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Meet the missionary families and ministries our church family supports prayerfully and financially around the world.",
   alternates: { canonical: "/missionaries" },
   openGraph: {
-    title: "Missionaries | Independent KJV Baptist Church",
+    title: "Missionaries | Truth Baptist Church",
     description: "Families and ministries we support around the world.",
     url: "/missionaries",
     type: "website",
