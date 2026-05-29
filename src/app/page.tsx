@@ -20,6 +20,7 @@ import MapAddress from "@/components/MapAddress";
 import PrayerRequest from "@/components/PrayerRequest";
 import ChatPastor from "@/components/ChatPastor";
 import MobileFriendly from "@/components/MobileFriendly";
+import EditWithAI from "@/components/EditWithAI";
 import Footer from "@/components/Footer";
 
 const churchSchema = {
@@ -88,6 +89,7 @@ export default function Home() {
         <PrayerRequest />
         <ChatPastor />
         <MobileFriendly />
+        <EditWithAI />
       </main>
       <Footer />
     </>
