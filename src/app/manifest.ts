@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Independent KJV Baptist Church",
-    short_name: "IKJV Baptist",
+    name: "Truth Baptist Church",
+    short_name: "Truth Baptist",
     description:
       "A Bible-believing, King James Bible Independent Baptist church.",
     start_url: "/",
