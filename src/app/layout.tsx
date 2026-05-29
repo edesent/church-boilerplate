@@ -16,7 +16,7 @@ const lato = Lato({
 });
 
 const SITE_URL = "https://example.com";
-const SITE_NAME = "Independent KJV Baptist Church";
+const SITE_NAME = "Truth Baptist Church";
 const SITE_TAGLINE = "A Bible-Believing, King James Bible Independent Baptist Church";
 const SITE_DESCRIPTION =
   "A friendly Independent King James Bible Baptist church. Join us for Sunday worship at 10:30 AM and Wednesday Bible study at 7:00 PM. Old-fashioned hymns, expository KJV preaching, and warm fellowship — all are welcome.";
