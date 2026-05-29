@@ -29,7 +29,7 @@ export default function PastorPage() {
         <section className="py-24 bg-warm-white">
           <div className="max-w-3xl mx-auto px-6 prose prose-lg">
             <p className="text-lg text-text-body leading-relaxed mb-6">
-              Pastor [Name] has served our church family since [year]. He is a graduate of
+              Pastor John Smith has served our church family since [year]. He is a graduate of
               [Bible college], holds a [degree], and is married to [wife&rsquo;s name].
               The [Last Name] family has [N] children: [names].
             </p>
