@@ -45,7 +45,7 @@ export default function PastorPage() {
               How to Reach Him
             </h2>
             <p className="text-text-body leading-relaxed">
-              Pastor [Name] loves hearing from members and visitors alike. Call the church
+              Pastor John Smith loves hearing from members and visitors alike. Call the church
               office at <a href="tel:+15555550100" className="text-brown-light font-semibold">(555) 555-0100</a>,
               email <a href="mailto:pastor@example.com" className="text-brown-light font-semibold">pastor@example.com</a>,
               or use the chat widget on the homepage.
