@@ -54,7 +54,7 @@ export default function WelcomePastor() {
                 href="/pastor"
                 className="inline-block bg-brown-light text-white font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full border-2 border-brown-light hover:bg-brown hover:border-brown hover:-translate-y-0.5 hover:shadow-lg transition-all"
               >
-                Meet Pastor [Name]
+                Meet Pastor John Smith
               </a>
             </div>
           </AnimateOnScroll>
