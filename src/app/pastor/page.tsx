@@ -31,7 +31,7 @@ export default function PastorPage() {
             <p className="text-lg text-text-body leading-relaxed mb-6">
               Pastor John Smith has served our church family since [year]. He is a graduate of
               [Bible college], holds a [degree], and is married to [wife&rsquo;s name].
-              The [Last Name] family has [N] children: [names].
+              The Smith family has [N] children: [names].
             </p>
             <h2 className="font-serif text-2xl font-bold text-text-dark mt-10 mb-4">
               His Heart for Ministry
