@@ -24,7 +24,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <div className="w-14 h-14 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-xl shadow-md mb-4">
-              IB
+              TB
             </div>
             <p className="font-serif text-lg text-white mb-2 leading-tight">
               Independent KJV<br />Baptist Church
