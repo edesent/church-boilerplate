@@ -2,7 +2,7 @@ import AnimateOnScroll from "./AnimateOnScroll";
 import SectionBadge from "./SectionBadge";
 
 const staff = [
-  { name: "Pastor [Last Name]", role: "Senior Pastor" },
+  { name: "Pastor Smith", role: "Senior Pastor" },
   { name: "[Name]", role: "Assistant Pastor" },
   { name: "[Name]", role: "Music Director" },
   { name: "[Name]", role: "Sunday School Superintendent" },
