@@ -61,7 +61,7 @@ export default function Navbar() {
           className="flex items-center gap-3 text-white"
         >
           <div className="w-9 h-9 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-base shadow-sm">
-            IB
+            TB
           </div>
           <div className="flex flex-col leading-tight">
             <span className="text-sm sm:text-base font-semibold tracking-[0.18em] uppercase text-gold whitespace-nowrap">
