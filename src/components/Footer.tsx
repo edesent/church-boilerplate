@@ -27,7 +27,7 @@ export default function Footer() {
               TB
             </div>
             <p className="font-serif text-lg text-white mb-2 leading-tight">
-              Independent KJV<br />Baptist Church
+              Truth<br />Baptist Church
             </p>
             <p className="text-sm leading-relaxed">
               123 Church Street<br />
