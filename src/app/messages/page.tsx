@@ -6,10 +6,10 @@ import SubpageHero from "@/components/SubpageHero";
 export const metadata: Metadata = {
   title: "Sermons & Messages",
   description:
-    "Listen to recent sermons preached at Independent KJV Baptist Church. Verse-by-verse exposition from the King James Bible.",
+    "Listen to recent sermons preached at Truth Baptist Church. Verse-by-verse exposition from the King James Bible.",
   alternates: { canonical: "/messages" },
   openGraph: {
-    title: "Sermons & Messages | Independent KJV Baptist Church",
+    title: "Sermons & Messages | Truth Baptist Church",
     description: "Verse-by-verse preaching from the King James Bible.",
     url: "/messages",
     type: "website",
