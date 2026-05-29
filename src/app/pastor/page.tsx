@@ -6,10 +6,10 @@ import SubpageHero from "@/components/SubpageHero";
 export const metadata: Metadata = {
   title: "Meet Our Pastor",
   description:
-    "Get to know Pastor Smith of Independent KJV Baptist Church — his testimony, his family, and the heart behind his ministry.",
+    "Get to know Pastor Smith of Truth Baptist Church — his testimony, his family, and the heart behind his ministry.",
   alternates: { canonical: "/pastor" },
   openGraph: {
-    title: "Meet Our Pastor | Independent KJV Baptist Church",
+    title: "Meet Our Pastor | Truth Baptist Church",
     description: "Get to know our pastor and the heart behind his ministry.",
     url: "/pastor",
     type: "profile",
