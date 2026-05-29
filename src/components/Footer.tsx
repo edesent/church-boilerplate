@@ -96,7 +96,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="text-center py-6 text-sm text-white/30">
-          <p>&copy; {new Date().getFullYear()} Independent KJV Baptist Church. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Truth Baptist Church. All rights reserved.</p>
         </div>
       </div>
     </footer>
