@@ -48,7 +48,7 @@ export default function WelcomePastor() {
                 whole life or you&rsquo;ve never set foot in one, you&rsquo;ll find a warm welcome here.
               </p>
               <p className="font-serif italic text-text-light mb-8">
-                — Pastor [Last Name]
+                — Pastor Smith
               </p>
               <a
                 href="/pastor"
