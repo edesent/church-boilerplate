@@ -23,7 +23,7 @@ export default function PastorPage() {
       <main>
         <SubpageHero
           eyebrow="Our Pastor"
-          title="Meet Pastor [Name]"
+          title="Meet Pastor John Smith"
           subtitle="Husband, father, and shepherd of our church family"
         />
         <section className="py-24 bg-warm-white">
