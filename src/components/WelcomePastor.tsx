@@ -39,7 +39,7 @@ export default function WelcomePastor() {
                 You&rsquo;re Invited to <em className="text-brown-light italic">Visit Us</em>
               </h2>
               <p className="text-lg text-text-body leading-relaxed mb-4">
-                Hello friend — I&rsquo;m Pastor [Name], and on behalf of our church family
+                Hello friend — I&rsquo;m Pastor John Smith, and on behalf of our church family
                 I want to personally invite you to join us this Sunday.
               </p>
               <p className="text-lg text-text-body leading-relaxed mb-6">
