@@ -25,7 +25,7 @@ import Footer from "@/components/Footer";
 const churchSchema = {
   "@context": "https://schema.org",
   "@type": "Church",
-  name: "Independent KJV Baptist Church",
+  name: "Truth Baptist Church",
   alternateName: "Independent Baptist Church",
   url: "https://example.com",
   logo: "https://example.com/logo.png",
