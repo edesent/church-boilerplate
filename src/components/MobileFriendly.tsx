@@ -98,7 +98,7 @@ export default function MobileFriendly() {
                         Welcome to
                       </p>
                       <h3 className="font-serif text-xl font-bold leading-tight mb-2">
-                        Independent KJV<br />Baptist Church
+                        Truth<br />Baptist Church
                       </h3>
                       <div className="w-8 h-[2px] bg-gold mx-auto mb-3 rounded" />
                       <p className="font-serif text-[10px] italic text-white/85 leading-relaxed mb-5">
