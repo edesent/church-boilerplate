@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     "Our Statement of Faith — the historic doctrines of the Independent Baptist faith that we hold and preach.",
   alternates: { canonical: "/statement-of-faith" },
   openGraph: {
-    title: "Statement of Faith | Independent KJV Baptist Church",
+    title: "Statement of Faith | Truth Baptist Church",
     description: "The doctrines we hold and preach.",
     url: "/statement-of-faith",
     type: "article",
