@@ -6,10 +6,10 @@ import SubpageHero from "@/components/SubpageHero";
 export const metadata: Metadata = {
   title: "Give Online",
   description:
-    "Give your tithes and offerings to Independent KJV Baptist Church securely online — or by mail or in person.",
+    "Give your tithes and offerings to Truth Baptist Church securely online — or by mail or in person.",
   alternates: { canonical: "/give" },
   openGraph: {
-    title: "Give Online | Independent KJV Baptist Church",
+    title: "Give Online | Truth Baptist Church",
     description: "Support the work of the Lord through your tithes and offerings.",
     url: "/give",
     type: "website",
@@ -47,13 +47,13 @@ export default function GivePage() {
                 Prefer the old-fashioned way? Mail your check to:
               </p>
               <address className="not-italic font-serif text-text-dark leading-relaxed mb-4">
-                Independent KJV Baptist Church<br />
+                Truth Baptist Church<br />
                 Attn: Treasurer<br />
                 123 Church Street<br />
                 Anytown, USA 00000
               </address>
               <p className="text-sm text-text-light">
-                Make checks payable to <strong>Independent KJV Baptist Church</strong>.
+                Make checks payable to <strong>Truth Baptist Church</strong>.
               </p>
             </div>
           </div>
