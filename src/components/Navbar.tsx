@@ -65,7 +65,7 @@ export default function Navbar() {
           </div>
           <div className="flex flex-col leading-tight">
             <span className="text-sm sm:text-base font-semibold tracking-[0.18em] uppercase text-gold whitespace-nowrap">
-              Independent KJV
+              Truth
             </span>
             <span className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/60 whitespace-nowrap">
               Baptist Church
