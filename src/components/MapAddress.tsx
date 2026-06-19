@@ -1,5 +1,6 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import SectionBadge from "./SectionBadge";
+import { SITE, phoneTel, mapsUrl } from "@/config/site";
 
 export default function MapAddress() {
   return (
@@ -30,7 +31,7 @@ export default function MapAddress() {
                   </div>
                   <div>
                     <p className="text-xs font-bold tracking-[0.15em] uppercase text-text-light mb-0.5">Address</p>
-                    <p className="text-text-dark font-medium">123 Church Street<br />Anytown, USA 00000</p>
+                    <p className="text-text-dark font-medium">{SITE.address.street}<br />{SITE.address.city}, {SITE.address.state} {SITE.address.zip}</p>
                   </div>
                 </div>
 
@@ -42,8 +43,8 @@ export default function MapAddress() {
                   </div>
                   <div>
                     <p className="text-xs font-bold tracking-[0.15em] uppercase text-text-light mb-0.5">Phone</p>
-                    <a href="tel:+15555550100" className="text-text-dark font-medium hover:text-brown-light transition-colors">
-                      (555) 555-0100
+                    <a href={`tel:${phoneTel}`} className="text-text-dark font-medium hover:text-brown-light transition-colors">
+                      {SITE.phone}
                     </a>
                   </div>
                 </div>
@@ -56,15 +57,15 @@ export default function MapAddress() {
                   </div>
                   <div>
                     <p className="text-xs font-bold tracking-[0.15em] uppercase text-text-light mb-0.5">Email</p>
-                    <a href="mailto:office@example.com" className="text-text-dark font-medium hover:text-brown-light transition-colors">
-                      office@example.com
+                    <a href={`mailto:${SITE.email}`} className="text-text-dark font-medium hover:text-brown-light transition-colors">
+                      {SITE.email}
                     </a>
                   </div>
                 </div>
               </div>
 
               <a
-                href="https://maps.google.com/?q=123+Church+Street+Anytown+USA"
+                href={mapsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block self-start bg-brown-light text-white font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full border-2 border-brown-light hover:bg-brown hover:border-brown hover:-translate-y-0.5 hover:shadow-lg transition-all"

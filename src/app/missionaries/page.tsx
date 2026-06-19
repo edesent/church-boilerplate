@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SubpageHero from "@/components/SubpageHero";
+import { SITE } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Missionaries We Support",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     "Meet the missionary families and ministries our church family supports prayerfully and financially around the world.",
   alternates: { canonical: "/missionaries" },
   openGraph: {
-    title: "Missionaries | Truth Baptist Church",
+    title: `Missionaries | ${SITE.name}`,
     description: "Families and ministries we support around the world.",
     url: "/missionaries",
     type: "website",

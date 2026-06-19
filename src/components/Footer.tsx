@@ -1,3 +1,5 @@
+import { SITE, brandInitials, brandTop, brandBottom, phoneTel } from "@/config/site";
+
 const quickLinks = [
   { href: "#home", label: "Home" },
   { href: "#about", label: "About Us" },
@@ -24,16 +26,16 @@ export default function Footer() {
           {/* Brand */}
           <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <div className="w-14 h-14 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-xl shadow-md mb-4">
-              TB
+              {brandInitials}
             </div>
             <p className="font-serif text-lg text-white mb-2 leading-tight">
-              Truth<br />Baptist Church
+              {brandTop}<br />{brandBottom}
             </p>
             <p className="text-sm leading-relaxed">
-              123 Church Street<br />
-              Anytown, USA 00000<br />
-              <a href="tel:+15555550100" className="text-gold-light hover:text-gold transition-colors">
-                (555) 555-0100
+              {SITE.address.street}<br />
+              {SITE.address.city}, {SITE.address.state} {SITE.address.zip}<br />
+              <a href={`tel:${phoneTel}`} className="text-gold-light hover:text-gold transition-colors">
+                {SITE.phone}
               </a>
             </p>
           </div>
@@ -69,8 +71,10 @@ export default function Footer() {
             <h4 className="font-serif text-base font-semibold text-white mb-5">Connect With Us</h4>
             <div className="flex gap-3 mb-6 justify-center sm:justify-start">
               <a
-                href="#"
+                href={SITE.facebookUrl || "#"}
                 aria-label="Facebook"
+                target={SITE.facebookUrl ? "_blank" : undefined}
+                rel={SITE.facebookUrl ? "noopener noreferrer" : undefined}
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white/[.08] text-white/70 hover:bg-gold hover:text-brown-deep hover:-translate-y-0.5 transition-all"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -78,8 +82,10 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="#"
+                href={SITE.youtubeUrl || "#"}
                 aria-label="YouTube"
+                target={SITE.youtubeUrl ? "_blank" : undefined}
+                rel={SITE.youtubeUrl ? "noopener noreferrer" : undefined}
                 className="w-10 h-10 flex items-center justify-center rounded-full bg-white/[.08] text-white/70 hover:bg-gold hover:text-brown-deep hover:-translate-y-0.5 transition-all"
               >
                 <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -96,7 +102,7 @@ export default function Footer() {
 
         {/* Bottom */}
         <div className="text-center py-6 text-sm text-white/30">
-          <p>&copy; {new Date().getFullYear()} Truth Baptist Church. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} {SITE.name}. All rights reserved.</p>
         </div>
       </div>
     </footer>

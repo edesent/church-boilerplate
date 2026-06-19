@@ -1,3 +1,5 @@
+import { brandTop, brandBottom } from "@/config/site";
+
 export default function PreachingHero() {
   return (
     <header id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -31,7 +33,7 @@ export default function PreachingHero() {
           Welcome to
         </p>
         <h1 className="font-serif text-5xl md:text-7xl font-bold leading-tight mb-5 animate-fade-up animation-delay-400">
-          Truth<br />Baptist Church
+          {brandTop}<br />{brandBottom}
         </h1>
         <div className="w-20 h-[3px] bg-gold mx-auto mb-6 rounded animate-fade-up animation-delay-600" />
         <p className="font-serif text-lg md:text-xl italic text-white/85 leading-relaxed max-w-xl mx-auto mb-9 animate-fade-up animation-delay-800">

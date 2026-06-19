@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SubpageHero from "@/components/SubpageHero";
+import { SITE } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Give Online",
-  description:
-    "Give your tithes and offerings to Truth Baptist Church securely online — or by mail or in person.",
+  description: `Give your tithes and offerings to ${SITE.name} securely online — or by mail or in person.`,
   alternates: { canonical: "/give" },
   openGraph: {
-    title: "Give Online | Truth Baptist Church",
+    title: `Give Online | ${SITE.name}`,
     description: "Support the work of the Lord through your tithes and offerings.",
     url: "/give",
     type: "website",
@@ -47,13 +47,13 @@ export default function GivePage() {
                 Prefer the old-fashioned way? Mail your check to:
               </p>
               <address className="not-italic font-serif text-text-dark leading-relaxed mb-4">
-                Truth Baptist Church<br />
+                {SITE.name}<br />
                 Attn: Treasurer<br />
-                123 Church Street<br />
-                Anytown, USA 00000
+                {SITE.address.street}<br />
+                {SITE.address.city}, {SITE.address.state} {SITE.address.zip}
               </address>
               <p className="text-sm text-text-light">
-                Make checks payable to <strong>Truth Baptist Church</strong>.
+                Make checks payable to <strong>{SITE.name}</strong>.
               </p>
             </div>
           </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SubpageHero from "@/components/SubpageHero";
+import { SITE } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "Statement of Faith",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     "Our Statement of Faith — the historic doctrines of the Independent Baptist faith that we hold and preach.",
   alternates: { canonical: "/statement-of-faith" },
   openGraph: {
-    title: "Statement of Faith | Truth Baptist Church",
+    title: `Statement of Faith | ${SITE.name}`,
     description: "The doctrines we hold and preach.",
     url: "/statement-of-faith",
     type: "article",

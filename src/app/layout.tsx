@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Playfair_Display, Lato } from "next/font/google";
+import { SITE } from "@/config/site";
 import "./globals.css";
 
 const playfair = Playfair_Display({
@@ -15,11 +16,10 @@ const lato = Lato({
   display: "swap",
 });
 
-const SITE_URL = "https://example.com";
-const SITE_NAME = "Truth Baptist Church";
-const SITE_TAGLINE = "A Bible-Believing, King James Bible Independent Baptist Church";
-const SITE_DESCRIPTION =
-  "A friendly Independent King James Bible Baptist church. Join us for Sunday worship at 10:30 AM and Wednesday Bible study at 7:00 PM. Old-fashioned hymns, expository KJV preaching, and warm fellowship — all are welcome.";
+const SITE_URL = SITE.url;
+const SITE_NAME = SITE.name;
+const SITE_TAGLINE = SITE.tagline;
+const SITE_DESCRIPTION = SITE.description;
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -107,8 +107,8 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 5,
   themeColor: [
-    { media: "(prefers-color-scheme: light)", color: "#fefcf8" },
-    { media: "(prefers-color-scheme: dark)", color: "#2c1810" },
+    { media: "(prefers-color-scheme: light)", color: SITE.backgroundColor },
+    { media: "(prefers-color-scheme: dark)", color: SITE.themeColorDark },
   ],
   colorScheme: "light",
 };

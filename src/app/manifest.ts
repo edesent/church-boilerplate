@@ -1,15 +1,15 @@
 import type { MetadataRoute } from "next";
+import { SITE } from "@/config/site";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "Truth Baptist Church",
-    short_name: "Truth Baptist",
-    description:
-      "A Bible-believing, King James Bible Independent Baptist church.",
+    name: SITE.name,
+    short_name: SITE.shortName,
+    description: SITE.shortDescription,
     start_url: "/",
     display: "standalone",
-    background_color: "#fefcf8",
-    theme_color: "#2c1810",
+    background_color: SITE.backgroundColor,
+    theme_color: SITE.themeColorDark,
     icons: [
       {
         src: "/apple-touch-icon.png",

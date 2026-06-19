@@ -1,5 +1,6 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import SectionBadge from "./SectionBadge";
+import { pastorFullName, pastorShortName } from "@/config/site";
 
 export default function WelcomePastor() {
   return (
@@ -39,7 +40,7 @@ export default function WelcomePastor() {
                 You&rsquo;re Invited to <em className="text-brown-light italic">Visit Us</em>
               </h2>
               <p className="text-lg text-text-body leading-relaxed mb-4">
-                Hello friend — I&rsquo;m Pastor John Smith, and on behalf of our church family
+                Hello friend — I&rsquo;m {pastorFullName}, and on behalf of our church family
                 I want to personally invite you to join us this Sunday.
               </p>
               <p className="text-lg text-text-body leading-relaxed mb-6">
@@ -48,13 +49,13 @@ export default function WelcomePastor() {
                 whole life or you&rsquo;ve never set foot in one, you&rsquo;ll find a warm welcome here.
               </p>
               <p className="font-serif italic text-text-light mb-8">
-                — Pastor Smith
+                — {pastorShortName}
               </p>
               <a
                 href="/pastor"
                 className="inline-block bg-brown-light text-white font-semibold text-sm tracking-wide uppercase px-8 py-3.5 rounded-full border-2 border-brown-light hover:bg-brown hover:border-brown hover:-translate-y-0.5 hover:shadow-lg transition-all"
               >
-                Meet Pastor John Smith
+                Meet {pastorFullName}
               </a>
             </div>
           </AnimateOnScroll>

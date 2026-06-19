@@ -22,25 +22,25 @@ import ChatPastor from "@/components/ChatPastor";
 import MobileFriendly from "@/components/MobileFriendly";
 import EditWithAI from "@/components/EditWithAI";
 import Footer from "@/components/Footer";
+import { SITE, logoUrl, ogImageUrl, phoneTel } from "@/config/site";
 
 const churchSchema = {
   "@context": "https://schema.org",
   "@type": "Church",
-  name: "Truth Baptist Church",
-  alternateName: "Independent Baptist Church",
-  url: "https://example.com",
-  logo: "https://example.com/logo.png",
-  image: "https://example.com/og-image.jpg",
-  description:
-    "A Bible-believing, King James Bible Independent Baptist church. Sunday worship at 10:30 AM, Wednesday Bible study at 7:00 PM.",
-  telephone: "+1-555-555-0100",
-  email: "office@example.com",
+  name: SITE.name,
+  alternateName: SITE.tagline,
+  url: SITE.url,
+  logo: logoUrl,
+  image: `${SITE.url.replace(/\/$/, "")}${ogImageUrl}`,
+  description: SITE.description,
+  telephone: phoneTel,
+  email: SITE.email,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "123 Church Street",
-    addressLocality: "Anytown",
-    addressRegion: "ST",
-    postalCode: "00000",
+    streetAddress: SITE.address.street,
+    addressLocality: SITE.address.city,
+    addressRegion: SITE.address.state,
+    postalCode: SITE.address.zip,
     addressCountry: "US",
   },
   openingHoursSpecification: [

@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { brandInitials, brandTop, brandBottom } from "@/config/site";
 
 const navLinks = [
   { href: "#home", label: "Home" },
@@ -61,14 +62,14 @@ export default function Navbar() {
           className="flex items-center gap-3 text-white"
         >
           <div className="w-9 h-9 rounded-full bg-gold flex items-center justify-center text-brown-deep font-bold font-serif text-base shadow-sm">
-            TB
+            {brandInitials}
           </div>
           <div className="flex flex-col leading-tight">
             <span className="text-sm sm:text-base font-semibold tracking-[0.18em] uppercase text-gold whitespace-nowrap">
-              Truth
+              {brandTop}
             </span>
             <span className="text-[10px] sm:text-xs tracking-[0.25em] uppercase text-white/60 whitespace-nowrap">
-              Baptist Church
+              {brandBottom}
             </span>
           </div>
         </a>

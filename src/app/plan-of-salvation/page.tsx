@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import SubpageHero from "@/components/SubpageHero";
+import { SITE } from "@/config/site";
 
 export const metadata: Metadata = {
   title: "The Plan of Salvation",
@@ -9,7 +10,7 @@ export const metadata: Metadata = {
     "How to be saved — the Gospel of Jesus Christ explained from the King James Bible. Admit, Believe, Call.",
   alternates: { canonical: "/plan-of-salvation" },
   openGraph: {
-    title: "The Plan of Salvation | Truth Baptist Church",
+    title: `The Plan of Salvation | ${SITE.name}`,
     description: "How to be saved — the Gospel from the King James Bible.",
     url: "/plan-of-salvation",
     type: "article",
