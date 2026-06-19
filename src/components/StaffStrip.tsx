@@ -1,8 +1,9 @@
 import AnimateOnScroll from "./AnimateOnScroll";
 import SectionBadge from "./SectionBadge";
+import { pastorFullName } from "@/config/site";
 
 const staff = [
-  { name: "Elijah Desent", role: "Senior Pastor" },
+  { name: pastorFullName, role: "Senior Pastor" },
   { name: "[Name]", role: "Assistant Pastor" },
   { name: "[Name]", role: "Music Director" },
   { name: "[Name]", role: "Sunday School Superintendent" },
