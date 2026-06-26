@@ -2,6 +2,25 @@
 
 A modular, generic Independent KJV Baptist church website. Every homepage section is its own component with a small captioned badge that names the section and explains its purpose. Drop in your church&rsquo;s real content, ship to Vercel, and you have a real site.
 
+Built and maintained by Pastor Eli — **[elijahdesent.com](https://www.elijahdesent.com)**. Want a finished, custom site (and someone to host it for you)? Start at [elijahdesent.com](https://www.elijahdesent.com).
+
+---
+
+## Edit your site in plain English (no code)
+
+You don&rsquo;t have to touch any of the files below by hand. This site can be edited in plain English through the **Custom Website Editor** — a hosted [Model Context Protocol](https://modelcontextprotocol.io) tool built by Pastor Eli. You describe the change ("update our Sunday service time", "add a paragraph about VBS", "swap the hero photo") and it makes the exact edit and ships it to the live site in about 30 seconds.
+
+**Add it to ChatGPT or Claude:**
+
+- **Endpoint:** `https://www.elijahdesent.com/api/mcp`
+- **Transport:** Streamable HTTP
+- **Auth:** OAuth (handled automatically — you just sign in once)
+- **MCP Registry name:** `com.elijahdesent/custom-website-editor`
+
+In ChatGPT (Settings → Connectors → Add) or Claude (Settings → Connectors → Add custom connector), paste the endpoint above and sign in. Once connected, just ask it to make a change.
+
+Learn more / get your own site: **[elijahdesent.com](https://www.elijahdesent.com)**.
+
 ---
 
 ## What&rsquo;s in here
@@ -112,3 +131,7 @@ npm start       # serve the build
 - **Section components are server components by default**. Anything with `useState`, `useEffect`, browser APIs (Navbar, AnimateOnScroll, PrayerRequest, ChatPastor) has `"use client"`.
 - **For ANY change to an existing file** — typo, wording, swap a heading — replace the smallest exact string you can. Don&rsquo;t rewrite whole files unless asked.
 - **Don&rsquo;t add new abstractions** to make it "fancier" — this is a boilerplate that pastors and non-developers should be able to read.
+
+---
+
+Built and maintained by Pastor Eli — [elijahdesent.com](https://www.elijahdesent.com).
