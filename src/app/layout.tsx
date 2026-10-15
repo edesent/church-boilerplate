@@ -123,7 +123,11 @@ export default function RootLayout({
       lang="en"
       className={`${playfair.variable} ${lato.variable} antialiased`}
     >
-      <body className="min-h-screen flex flex-col">{children}</body>
+      <body className="min-h-screen flex flex-col">
+        {children}
+        {/* Demo tracking (CRM → Demo Tracking). Remove at go-live. */}
+        <script async src="https://www.elijahdesent.com/demo.js" />
+      </body>
     </html>
   );
 }
